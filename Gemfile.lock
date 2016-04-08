@@ -201,7 +201,6 @@ DEPENDENCIES
   binding_of_caller
   browser (~> 2.0)
   byebug
-  coffee-rails (~> 4.1.0)
   factory_girl_rails (~> 4.6)
   faker (~> 1.6.3)
   haml-rails (~> 0.9)
