@@ -21,7 +21,7 @@ gem 'haml-rails', '~> 0.9' # It provides Haml generators and enables Haml as the
 group :development, :test do
   gem 'rspec-rails', '~> 3.4.2' # Behaviour Driven Development for Ruby
   gem 'factory_girl_rails', '~> 4.6'  # Fixtures replacement
-  gem 'byebug'   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', '~> 8.2', '>= 8.2.4' # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'awesome_print', '~> 1.6' # Prints Ruby objects in full color exposing their internal structure with proper indentation
   gem 'capybara', '~> 2.6', '>= 2.6.2' # An integration testing tool simulating how a user would interact with a website
 end
