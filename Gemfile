@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease (https://github.com/rails/j
 # gem 'capistrano-rails', group: :development # Use Capistrano for deployment
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.4.2' # Behaviour Driven Development for Ruby
   gem 'byebug'   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 end
 
