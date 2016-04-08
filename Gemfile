@@ -31,6 +31,7 @@ group :development do
   gem 'better_errors', '~> 2.1.0' #Better Errors replaces the standard Rails error page with a much better and more useful error page
   gem 'binding_of_caller' # Better Errors enhancement: It Allows you to inspect source code live through a console that works on every stack frame
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
+  gem 'annotate', '~> 2.7' # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
 end
 
 group :test do
