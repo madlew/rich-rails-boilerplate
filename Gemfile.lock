@@ -53,6 +53,7 @@ GEM
     builder (3.2.2)
     byebug (8.2.4)
     callsite (0.0.11)
+    cancancan (1.13.1)
     capybara (2.7.0)
       addressable
       mime-types (>= 1.16)
@@ -230,6 +231,7 @@ DEPENDENCIES
   binding_of_caller
   browser (~> 2.0)
   byebug (~> 8.2, >= 8.2.4)
+  cancancan (~> 1.13, >= 1.13.1)
   capybara (~> 2.6, >= 2.6.2)
   devise (~> 3.5, >= 3.5.6)
   factory_girl_rails (~> 4.6)
