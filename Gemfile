@@ -19,6 +19,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.4.2' # Behaviour Driven Development for Ruby
   gem 'factory_girl_rails', '~> 4.6'  # Fixtures replacement
   gem 'byebug'   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'awesome_print', '~> 1.6' # Prints Ruby objects in full color exposing their internal structure with proper indentation
 end
 
 group :development do
