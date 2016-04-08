@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 gem 'jquery-rails' # Use jquery as the JavaScript library
 gem 'turbolinks' # Turbolinks makes following links in your web application faster (https://github.com/rails/turbolinks)
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease (https://github.com/rails/jbuilder)
+gem 'browser', '~> 2.0' # Browser detection with Ruby (includes ActionController integration)
 
 # INACTIVE DEFAULTS
 # gem 'therubyracer', platforms: :ruby # See https://github.com/rails/execjs#readme for more supported runtimes
