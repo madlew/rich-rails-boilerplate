@@ -10,6 +10,7 @@ gem 'turbolinks' # Turbolinks makes following links in your web application fast
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease (https://github.com/rails/jbuilder)
 gem 'browser', '~> 2.0' # Browser detection with Ruby (includes ActionController integration)
 gem 'kaminari', '~> 0.16.3' # A Scope & Engine based customizable paginator for modern web app frameworks and ORMs
+gem 'haml-rails', '~> 0.9' # It provides Haml generators and enables Haml as the templating engine
 
 # INACTIVE DEFAULTS
 # gem 'therubyracer', platforms: :ruby # See https://github.com/rails/execjs#readme for more supported runtimes
