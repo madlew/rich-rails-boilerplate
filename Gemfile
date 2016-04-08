@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease (https://github.com/rails/j
 gem 'browser', '~> 2.0' # Browser detection with Ruby (includes ActionController integration)
 gem 'kaminari', '~> 0.16.3' # A Scope & Engine based customizable paginator for modern web app frameworks and ORMs
 gem 'haml-rails', '~> 0.9' # It provides Haml generators and enables Haml as the templating engine
+gem 'devise', '~> 3.5', '>= 3.5.6' # Flexible authentication solution for Rails with Warden
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # INACTIVE DEFAULTS
