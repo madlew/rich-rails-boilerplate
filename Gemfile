@@ -11,6 +11,7 @@ gem 'browser', '~> 2.0' # Browser detection with Ruby (includes ActionController
 gem 'kaminari', '~> 0.16.3' # A Scope & Engine based customizable paginator for modern web app frameworks and ORMs
 gem 'haml-rails', '~> 0.9' # It provides Haml generators and enables Haml as the templating engine
 gem 'devise', '~> 3.5', '>= 3.5.6' # Flexible authentication solution for Rails with Warden
+gem 'seed-fu', '~> 2.3', '>= 2.3.5' # Seed-Fu is an attempt to once and for all solve the problem of inserting and maintaining seed data in a database.
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
