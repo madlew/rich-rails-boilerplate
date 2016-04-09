@@ -40,6 +40,7 @@ group :development do
   gem 'binding_of_caller' # Better Errors enhancement: It Allows you to inspect source code live through a console that works on every stack frame
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
   gem 'annotate', '~> 2.7' # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
+  gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
 end
 
 group :test do
