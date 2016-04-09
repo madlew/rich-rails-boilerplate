@@ -11,9 +11,12 @@ gem 'browser', '~> 2.0' # Browser detection with Ruby (includes ActionController
 gem 'kaminari', '~> 0.16.3' # A Scope & Engine based customizable paginator for modern web app frameworks and ORMs
 gem 'haml-rails', '~> 0.9' # It provides Haml generators and enables Haml as the templating engine
 gem 'devise', '~> 3.5', '>= 3.5.6' # Flexible authentication solution for Rails with Warden
+# gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
+
+# Admin
 gem 'cancancan', '~> 1.13', '>= 1.13.1' # Continuation of CanCan, the authorization Gem
 gem 'rails_admin', '~> 0.8.1' # Rails engine that provides an easy-to-use interface for managing your data
-# gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
+# gem 'paper_trail', '~> 4.1' # Track changes to your models' data (audit log / versioning)
 
 # INACTIVE DEFAULTS
 # gem 'therubyracer', platforms: :ruby # See https://github.com/rails/execjs#readme for more supported runtimes
