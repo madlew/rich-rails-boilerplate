@@ -11,9 +11,13 @@ Things you may want to cover:
 
 * Configuration
 
+  - Update production admin login credentials at db/fixtures/production/admins.rb
+
 * Database creation
 
 * Database initialization
+
+  - rake db:seed_fu
 
 * How to run the test suite
 
