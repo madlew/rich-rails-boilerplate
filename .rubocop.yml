@@ -1,0 +1,8 @@
+Rails:
+  Enabled: true
+AllCops:
+  Include:
+    - Rakefile
+    - config.ru
+  Exclude:
+    - db/schema.rb

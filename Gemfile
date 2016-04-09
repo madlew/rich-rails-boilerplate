@@ -41,6 +41,7 @@ group :development do
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
   gem 'annotate', '~> 2.7' # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
+  gem 'rubocop', '~> 0.39.0', require: false # Ruby static code analyzer
 end
 
 group :test do
