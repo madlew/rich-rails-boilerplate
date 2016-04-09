@@ -44,6 +44,7 @@ end
 
 group :test do
   gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
+  gem 'fuubar', '~> 2.0' # RSpec progress bar formatter
 end
 
 group :doc do

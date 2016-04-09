@@ -54,4 +54,5 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+  config.fuubar_progress_bar_options = { format: '%a (%E): |%b>%i| %p%% (%c/%C)' }
 end
