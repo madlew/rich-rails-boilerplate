@@ -48,6 +48,7 @@ group :test do
   gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
   gem 'fuubar', '~> 2.0' # RSpec progress bar formatter
   gem 'timecop', '~> 0.8.1' # A gem providing "time travel" and "time freezing" capabilities, making it simple to test time-dependent code
+  gem 'simplecov', '~> 0.11.2', require: false # Code coverage with a powerful configuration library and automatic merging of coverage across test suites
 end
 
 group :doc do
