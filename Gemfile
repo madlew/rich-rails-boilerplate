@@ -42,6 +42,7 @@ group :development do
   gem 'annotate', '~> 2.7' # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
   gem 'rubocop', '~> 0.39.0', require: false # Ruby static code analyzer
+  gem 'rails_best_practices', '~> 1.16', require: false # A code metric tool for rails projects
 end
 
 group :test do
