@@ -44,6 +44,7 @@ group :development do
   gem 'pry-byebug', '~> 3.3' # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' # Displays footnotes for easy debugging, such as sessions, params, routes, queries, etc
   gem 'rails_db', '~> 1.1', '>= 1.1.1' # Quick way to inspect your Rails database, see content of tables, filter, export, EXPLAIN SQL and run SQL queries
+  gem 'guard', '~> 2.13', require: false # Guard is a command line tool to easily handle events on file system modifications
   # Code review
   gem 'rubocop', '~> 0.39.0', require: false # Static code analyzer checking code for adherence to the Ruby community style guide
   gem 'rails_best_practices', '~> 1.16', require: false # Code metric tool
