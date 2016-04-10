@@ -59,6 +59,10 @@ group :test do
   gem 'simplecov', '~> 0.11.2', require: false # Code coverage with a powerful configuration library and automatic merging of coverage across test suites
 end
 
+group :production, :staging do
+  gem 'exception_notification', '~> 4.1', '>= 4.1.4' # Exception notification for Rails apps
+end
+
 group :doc do
   gem 'sdoc', '~> 0.4.0' # bundle exec rake doc:rails generates the API under doc/api.
 end
