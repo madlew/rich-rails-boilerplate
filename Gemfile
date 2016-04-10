@@ -32,6 +32,7 @@ group :development, :test do
   gem 'byebug', '~> 8.2', '>= 8.2.4' # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'awesome_print', '~> 1.6' # Prints Ruby objects in full color exposing their internal structure with proper indentation
   gem 'capybara', '~> 2.6', '>= 2.6.2' # An integration testing tool simulating how a user would interact with a website
+  gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
 end
 
 group :development do
@@ -58,7 +59,6 @@ group :development do
 end
 
 group :test do
-  gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
   gem 'fuubar', '~> 2.0' # RSpec progress bar formatter
   gem 'timecop', '~> 0.8.1' # A gem providing "time travel" and "time freezing" capabilities, making it simple to test time-dependent code
   gem 'simplecov', '~> 0.11.2', require: false # Code coverage with a powerful configuration library and automatic merging of coverage across test suites
