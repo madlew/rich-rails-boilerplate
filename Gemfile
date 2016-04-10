@@ -44,6 +44,7 @@ group :development do
   gem 'rubocop', '~> 0.39.0', require: false # Ruby static code analyzer
   gem 'rails_best_practices', '~> 1.16', require: false # A code metric tool for rails projects
   gem 'brakeman', '~> 3.2', '>= 3.2.1', require: false # Static analysis tool which checks Ruby on Rails applications for security vulnerabilities
+  gem 'reek', '~> 4.0', require: false # Code smell detector for Ruby
 end
 
 group :test do
