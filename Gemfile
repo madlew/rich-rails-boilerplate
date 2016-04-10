@@ -54,6 +54,7 @@ group :development do
   gem 'fasterer', '~> 0.3.2', require: false # Fasterer will suggest some speed improvements
   # Maintenance
   gem 'request-log-analyzer', '~> 1.13', '>= 1.13.4', require: false # Create reports based on log files (Rails, Apache, MySQL, Delayed::Job, and other)
+  gem 'traceroute', '~> 0.5.0' # A Rake task gem that helps you find the unused routes and controller actions
 end
 
 group :test do
