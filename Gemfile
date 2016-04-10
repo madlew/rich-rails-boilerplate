@@ -39,7 +39,7 @@ group :development do
   gem 'better_errors', '~> 2.1.0' #Better Errors replaces the standard Rails error page with a much better and more useful error page
   gem 'binding_of_caller' # Better Errors enhancement: It Allows you to inspect source code live through a console that works on every stack frame
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
-  gem 'annotate', '~> 2.7' # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
+  gem 'annotate', '~> 2.7', require: false # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' # Displays footnotes for easy debugging, such as sessions, params, routes, queries, etc
   # Code review
