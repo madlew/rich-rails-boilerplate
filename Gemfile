@@ -47,6 +47,7 @@ group :development do
   gem 'brakeman', '~> 3.2', '>= 3.2.1', require: false # Static analysis tool which checks Ruby on Rails applications for security vulnerabilities
   gem 'reek', '~> 3.11', require: false # Code smell detector for Ruby
   gem 'rubycritic', '~> 2.8', require: false # Wraps around various static analysis gems to provide a quality report
+  gem 'fasterer', '~> 0.3.2', require: false # Fasterer will suggest some speed improvements
 end
 
 group :test do
