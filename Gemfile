@@ -41,6 +41,7 @@ group :development do
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
   gem 'annotate', '~> 2.7', require: false # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
+  gem 'pry-byebug', '~> 3.3' # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' # Displays footnotes for easy debugging, such as sessions, params, routes, queries, etc
   # Code review
   gem 'rubocop', '~> 0.39.0', require: false # Static code analyzer checking code for adherence to the Ruby community style guide
