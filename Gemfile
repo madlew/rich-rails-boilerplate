@@ -43,6 +43,7 @@ group :development do
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
   gem 'rubocop', '~> 0.39.0', require: false # Ruby static code analyzer
   gem 'rails_best_practices', '~> 1.16', require: false # A code metric tool for rails projects
+  gem 'brakeman', '~> 3.2', '>= 3.2.1', require: false # Static analysis tool which checks Ruby on Rails applications for security vulnerabilities
 end
 
 group :test do
