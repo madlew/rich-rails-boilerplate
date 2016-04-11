@@ -41,6 +41,7 @@ group :development do
   gem 'better_errors', '~> 2.1.0' #Better Errors replaces the standard Rails error page with a much better and more useful error page
   gem 'binding_of_caller' # Better Errors enhancement: It Allows you to inspect source code live through a console that works on every stack frame
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
+  gem 'letter_opener', '~> 1.4', '>= 1.4.1' # When mail is sent from your app, Letter Opener will open a preview in the browser instead of sending
   gem 'annotate', '~> 2.7', require: false # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
   gem 'pry-byebug', '~> 3.3' # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
