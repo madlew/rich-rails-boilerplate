@@ -58,6 +58,7 @@ group :development do
   # Maintenance
   gem 'request-log-analyzer', '~> 1.13', '>= 1.13.4', require: false # Create reports based on log files (Rails, Apache, MySQL, Delayed::Job, and other)
   gem 'traceroute', '~> 0.5.0' # A Rake task gem that helps you find the unused routes and controller actions
+  gem 'lol_dba', '~> 2.0', '>= 2.0.3' # Package of rake tasks that scan your app models and displays a list of columns that probably should be indexed
 end
 
 group :test do
