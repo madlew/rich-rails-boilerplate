@@ -13,6 +13,7 @@ gem 'haml-rails', '~> 0.9' # It provides Haml generators and enables Haml as the
 gem 'devise', '~> 3.5', '>= 3.5.6' # Flexible authentication solution for Rails with Warden
 gem 'seed-fu', '~> 2.3', '>= 2.3.5' # Seed-Fu is an attempt to once and for all solve the problem of inserting and maintaining seed data in a database.
 gem 'simple_form', '~> 3.2', '>= 3.2.1' # Customizable form generator with auto labels, placeholders, built in html5 validations and excellent Bootstrap integration
+gem 'carrierwave', '~> 0.11.0' # Image uploader (support for a range of ORMs and different backends)
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
