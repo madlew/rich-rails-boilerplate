@@ -11,6 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//'bootstrap-sprockets' provides individual Bootstrap Javascript files (alert.js or dropdown.js, for example)
+//'bootstrap' provides a concatenated file containing all Bootstrap Javascripts.
+//= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
