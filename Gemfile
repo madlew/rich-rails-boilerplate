@@ -15,6 +15,7 @@ gem 'seed-fu', '~> 2.3', '>= 2.3.5' # Seed-Fu is an attempt to once and for all 
 gem 'simple_form', '~> 3.2', '>= 3.2.1' # Customizable form generator with auto labels, placeholders, built in html5 validations and excellent Bootstrap integration
 gem 'carrierwave', '~> 0.11.0' # Image uploader (support for a range of ORMs and different backends)
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6' # Sass-powered version of Bootstrap 3
+gem 'high_voltage', '~> 2.4' # Easily include static pages in your Rails app
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
