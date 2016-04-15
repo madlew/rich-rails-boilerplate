@@ -19,6 +19,7 @@ gem 'high_voltage', '~> 2.4' # Easily include static pages in your Rails app
 gem 'browsernizer', '~> 0.2.3' # Rack middleware for redirecting unsupported user agents to "please upgrade" page
 gem 'httparty', '~> 0.13.7' # Makes http fun! Also, makes consuming restful web services dead easy
 gem 'delayed_job', '~> 4.1', '>= 4.1.1' # Encapsulates the common pattern of asynchronously executing longer tasks in the background
+gem 'newrelic_rpm', '~> 3.15', '>= 3.15.1.316' # Performance management system
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
