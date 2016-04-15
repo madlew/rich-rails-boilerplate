@@ -43,7 +43,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'spring'   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring', '~> 1.6', '>= 1.6.4' # Spring speeds up development by keeping your application running in the background
   gem 'better_errors', '~> 2.1.0' #Better Errors replaces the standard Rails error page with a much better and more useful error page
   gem 'binding_of_caller' # Better Errors enhancement: It Allows you to inspect source code live through a console that works on every stack frame
   gem 'meta_request', '~> 0.4.0' # Supporting gem for Rails Panel
