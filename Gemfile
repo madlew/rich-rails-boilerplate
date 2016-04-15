@@ -74,6 +74,7 @@ group :test do
   gem 'fuubar', '~> 2.0' # RSpec progress bar formatter
   gem 'timecop', '~> 0.8.1' # A gem providing "time travel" and "time freezing" capabilities, making it simple to test time-dependent code
   gem 'simplecov', '~> 0.11.2', require: false # Code coverage with a powerful configuration library and automatic merging of coverage across test suites
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1' # Collection of testing matchers extracted from Shoulda http://matchers.shoulda.io
 end
 
 group :production, :staging do
