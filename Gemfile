@@ -17,6 +17,7 @@ gem 'carrierwave', '~> 0.11.0' # Image uploader (support for a range of ORMs and
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6' # Sass-powered version of Bootstrap 3
 gem 'high_voltage', '~> 2.4' # Easily include static pages in your Rails app
 gem 'browsernizer', '~> 0.2.3' # Rack middleware for redirecting unsupported user agents to "please upgrade" page
+gem 'httparty', '~> 0.13.7' # Makes http fun! Also, makes consuming restful web services dead easy
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
