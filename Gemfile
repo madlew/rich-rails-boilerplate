@@ -66,6 +66,7 @@ group :development do
   gem 'traceroute', '~> 0.5.0' # A Rake task gem that helps you find the unused routes and controller actions
   gem 'lol_dba', '~> 2.0', '>= 2.0.3' # Package of rake tasks that scan your app models and displays a list of columns that probably should be indexed
   gem 'bullet', '~> 5.0' # Help to kill N+1 queries and unused eager loading
+  gem 'rack-mini-profiler', '~> 0.9.9.2' # Profiling toolkit for Rack applications with Rails integration (Client Side, DB profiling, Server profiling)
 end
 
 group :test do
