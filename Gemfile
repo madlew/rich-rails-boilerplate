@@ -40,6 +40,7 @@ group :development, :test do
   gem 'awesome_print', '~> 1.6' # Prints Ruby objects in full color exposing their internal structure with proper indentation
   gem 'capybara', '~> 2.6', '>= 2.6.2' # An integration testing tool simulating how a user would interact with a website
   gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
+  gem 'dotenv', '~> 2.1' # Loads environment variables from `.env`
 end
 
 group :development do
