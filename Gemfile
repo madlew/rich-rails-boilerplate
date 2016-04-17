@@ -72,6 +72,7 @@ group :development do
   gem 'lol_dba', '~> 2.0', '>= 2.0.3' # Package of rake tasks that scan your app models and displays a list of columns that probably should be indexed
   gem 'bullet', '~> 5.0' # Help to kill N+1 queries and unused eager loading
   gem 'rack-mini-profiler', '~> 0.9.9.2' # Profiling toolkit for Rack applications with Rails integration (Client Side, DB profiling, Server profiling)
+  gem 'meta-tags', '~> 2.1' # Search Engine Optimization (SEO) plugin for Ruby on Rails applications
 end
 
 group :test do
