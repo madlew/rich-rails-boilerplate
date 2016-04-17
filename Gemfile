@@ -21,6 +21,7 @@ gem 'httparty', '~> 0.13.7' # Makes http fun! Also, makes consuming restful web 
 gem 'delayed_job', '~> 4.1', '>= 4.1.1' # Encapsulates the common pattern of asynchronously executing longer tasks in the background
 gem 'newrelic_rpm', '~> 3.15', '>= 3.15.1.316' # Performance management system
 gem 'hashid-rails', '~> 0.1' # It allows to use [Hashids](http://hashids.org/ruby/)
+gem 'wannabe_bool', '~> 0.5.0' # If string, numeric, symbol and nil values wanna be a boolean value, they can with the new to_b method
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
