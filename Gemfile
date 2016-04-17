@@ -20,6 +20,7 @@ gem 'browsernizer', '~> 0.2.3' # Rack middleware for redirecting unsupported use
 gem 'httparty', '~> 0.13.7' # Makes http fun! Also, makes consuming restful web services dead easy
 gem 'delayed_job', '~> 4.1', '>= 4.1.1' # Encapsulates the common pattern of asynchronously executing longer tasks in the background
 gem 'newrelic_rpm', '~> 3.15', '>= 3.15.1.316' # Performance management system
+gem 'hashid-rails', '~> 0.1' # It allows to use [Hashids](http://hashids.org/ruby/)
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
