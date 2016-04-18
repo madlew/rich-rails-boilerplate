@@ -29,6 +29,7 @@ gem 'gretel', '~> 3.0', '>= 3.0.8' # Makes it easy yet flexible to create breadc
 gem 'default_value_for', '~> 3.0', '>= 3.0.1' # Allows to define default values for ActiveRecord models in a declarative manner
 gem 'paranoia', '~> 2.1', '>= 2.1.5' # Soft delete (calling destroy on an ActiveRecord object doesn't actually destroy the database record but just hides it)
 gem 'audited-activerecord', '~> 4.2' # Log all changes to your ActiveRecord models
+gem 'acts_as_list', '~> 0.7.2' # Provides the capabilities for sorting and reordering a number of objects in a list
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
