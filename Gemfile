@@ -28,6 +28,7 @@ gem 'split', '~> 1.3', '>= 1.3.2' # The Rack Based AB testing framework (require
 gem 'gretel', '~> 3.0', '>= 3.0.8' # Makes it easy yet flexible to create breadcrumbs
 gem 'default_value_for', '~> 3.0', '>= 3.0.1' # Allows to define default values for ActiveRecord models in a declarative manner
 gem 'paranoia', '~> 2.1', '>= 2.1.5' # Soft delete (calling destroy on an ActiveRecord object doesn't actually destroy the database record but just hides it)
+gem 'audited-activerecord', '~> 4.2' # Log all changes to your ActiveRecord models
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
