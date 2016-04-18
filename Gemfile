@@ -51,6 +51,7 @@ group :development, :test do
   gem 'capybara', '~> 2.6', '>= 2.6.2' # An integration testing tool simulating how a user would interact with a website
   gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
   gem 'dotenv', '~> 2.1' # Loads environment variables from `.env`
+  gem 'colorize', '~> 0.7.7' # Adds methods to set text color, background color and, text effects on ruby console and command line output
 end
 
 group :development do
