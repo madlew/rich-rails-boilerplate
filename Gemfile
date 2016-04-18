@@ -26,6 +26,7 @@ gem 'sitemap_generator', '~> 5.1' # Framework-agnostic XML Sitemap generator wri
 gem 'redis', '~> 3.2', '>= 3.2.2' # A Ruby client that tries to match Redis' API one-to-one, while still providing an idiomatic interface
 gem 'split', '~> 1.3', '>= 1.3.2' # The Rack Based AB testing framework (requires redis database)
 gem 'gretel', '~> 3.0', '>= 3.0.8' # Makes it easy yet flexible to create breadcrumbs
+gem 'default_value_for', '~> 3.0', '>= 3.0.1' # Allows to define default values for ActiveRecord models in a declarative manner
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
