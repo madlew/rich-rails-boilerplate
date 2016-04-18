@@ -24,6 +24,7 @@ gem 'hashid-rails', '~> 0.1' # It allows to use [Hashids](http://hashids.org/rub
 gem 'wannabe_bool', '~> 0.5.0' # If string, numeric, symbol and nil values wanna be a boolean value, they can with the new to_b method
 gem 'sitemap_generator', '~> 5.1' # Framework-agnostic XML Sitemap generator written in Ruby with automatic Rails integration
 gem 'redis', '~> 3.2', '>= 3.2.2' # A Ruby client that tries to match Redis' API one-to-one, while still providing an idiomatic interface
+gem 'split', '~> 1.3', '>= 1.3.2' # The Rack Based AB testing framework (requires redis database)
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
