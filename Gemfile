@@ -27,6 +27,7 @@ gem 'redis', '~> 3.2', '>= 3.2.2' # A Ruby client that tries to match Redis' API
 gem 'split', '~> 1.3', '>= 1.3.2' # The Rack Based AB testing framework (requires redis database)
 gem 'gretel', '~> 3.0', '>= 3.0.8' # Makes it easy yet flexible to create breadcrumbs
 gem 'default_value_for', '~> 3.0', '>= 3.0.1' # Allows to define default values for ActiveRecord models in a declarative manner
+gem 'paranoia', '~> 2.1', '>= 2.1.5' # Soft delete (calling destroy on an ActiveRecord object doesn't actually destroy the database record but just hides it)
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
