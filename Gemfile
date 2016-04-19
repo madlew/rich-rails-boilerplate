@@ -55,6 +55,7 @@ group :development, :test do
   gem 'faker', '~> 1.6.3' # A library for generating fake data such as names, addresses, and phone numbers
   gem 'dotenv', '~> 2.1' # Loads environment variables from `.env`
   gem 'colorize', '~> 0.7.7' # Adds methods to set text color, background color and, text effects on ruby console and command line output
+  gem 'bundler-audit', '~> 0.5.0', require: false # Provides patch-level verification for Bundled apps
 end
 
 group :development do
