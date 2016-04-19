@@ -31,6 +31,7 @@ gem 'paranoia', '~> 2.1', '>= 2.1.5' # Soft delete (calling destroy on an Active
 gem 'audited-activerecord', '~> 4.2' # Log all changes to your ActiveRecord models
 gem 'acts_as_list', '~> 0.7.2' # Provides the capabilities for sorting and reordering a number of objects in a list
 gem 'figaro', '~> 1.1', '>= 1.1.1' # Rails app configuration using ENV and a single YAML file
+gem 'friendly_id', '~> 5.1' # "Swiss Army bulldozer" of slugging and permalink plugins for Active Record
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
