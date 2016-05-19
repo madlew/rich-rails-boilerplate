@@ -32,6 +32,7 @@ gem 'audited-activerecord', '~> 4.2' # Log all changes to your ActiveRecord mode
 gem 'acts_as_list', '~> 0.7.2' # Provides the capabilities for sorting and reordering a number of objects in a list
 gem 'figaro', '~> 1.1', '>= 1.1.1' # Rails app configuration using ENV and a single YAML file
 gem 'friendly_id', '~> 5.1' # "Swiss Army bulldozer" of slugging and permalink plugins for Active Record
+gem 'meta-tags', '~> 2.1' # Search Engine Optimization (SEO) plugin for Ruby on Rails applications
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
@@ -85,7 +86,6 @@ group :development do
   gem 'lol_dba', '~> 2.0', '>= 2.0.3' # Package of rake tasks that scan your app models and displays a list of columns that probably should be indexed
   gem 'bullet', '~> 5.0' # Help to kill N+1 queries and unused eager loading
   gem 'rack-mini-profiler', '~> 0.9.9.2' # Profiling toolkit for Rack applications with Rails integration (Client Side, DB profiling, Server profiling)
-  gem 'meta-tags', '~> 2.1' # Search Engine Optimization (SEO) plugin for Ruby on Rails applications
 end
 
 group :test do
