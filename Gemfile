@@ -70,7 +70,6 @@ group :development do
   gem 'pry-rails', '~> 0.3.4' # An IRB alternative and runtime developer console
   gem 'pry-byebug', '~> 3.3' # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' # Displays footnotes for easy debugging, such as sessions, params, routes, queries, etc
-  gem 'rails_db', '~> 1.1', '>= 1.1.1' # Quick way to inspect your Rails database, see content of tables, filter, export, EXPLAIN SQL and run SQL queries
   gem 'guard', '~> 2.13', require: false # Guard is a command line tool to easily handle events on file system modifications
   gem 'quiet_assets', '~> 1.1' #  Turns off Rails asset pipeline log
   # Code review
