@@ -41,3 +41,6 @@ bower.json
 
 # Ignore application configuration
 /config/application.yml
+
+# Mac Os tmp files
+.DS_Store
