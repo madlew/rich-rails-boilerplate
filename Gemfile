@@ -84,6 +84,7 @@ group :development do
   gem 'pronto-reek', '~> 0.6.1', require: false # Pronto runner for Reek, code smell detector for Ruby
   gem 'pronto-brakeman', '~> 0.6.0', require: false # ronto runner for Brakeman, security vulnerability scanner for RoR
   gem 'pronto-rails_best_practices', '~> 0.6.0', require: false # Pronto runner for Rails Best Practices, code metric tool for Rails projects
+  gem 'pronto-poper', '~> 0.6.0', require: false # Pronto runner for Poper, git commit message analyzer
   # Maintenance
   gem 'request-log-analyzer', '~> 1.13', '>= 1.13.4', require: false # Create reports based on log files (Rails, Apache, MySQL, Delayed::Job, and other)
   gem 'traceroute', '~> 0.5.0' # A Rake task gem that helps you find the unused routes and controller actions
