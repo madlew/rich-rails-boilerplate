@@ -90,6 +90,7 @@ group :development do
   gem 'lol_dba', '~> 2.0', '>= 2.0.3' # Package of rake tasks that scan your app models and displays a list of columns that probably should be indexed
   gem 'bullet', '~> 5.0' # Help to kill N+1 queries and unused eager loading
   gem 'rack-mini-profiler', '~> 0.9.9.2' # Profiling toolkit for Rack applications with Rails integration (Client Side, DB profiling, Server profiling)
+  gem 'poper', '~> 0.1.3', require: false # Poper makes sure that your git commit messages are well-formed
 end
 
 group :test do
