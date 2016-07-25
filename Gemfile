@@ -58,6 +58,7 @@ group :development, :test do
   gem 'colorize', '~> 0.7.7' # Adds methods to set text color, background color and, text effects on ruby console and command line output
   gem 'bundler-audit', '~> 0.5.0', require: false # Provides patch-level verification for Bundled apps
   gem 'webmock', '~> 1.24', '>= 1.24.2' # Library for stubbing and setting expectations on HTTP requests
+  gem 'jshint', '~> 1.4' # Catches most code smells, and ensures code consistency
 end
 
 group :development do
