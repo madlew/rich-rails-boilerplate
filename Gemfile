@@ -91,6 +91,7 @@ group :development do
   gem 'pronto-haml', '~> 0.6.0', require: false # Pronto runner for HAML-Lint, tool for writing clean and consistent HAML
   gem 'pronto-fasterer', '~> 0.6.1', require: false # Pronto runner for Fasterer, speed improvements suggester
   gem 'pronto-commentator', '~> 0.1.0', require: false # A simple runner for Pronto that adds pre-defined comments based on which files have changed
+  gem 'pronto-scss', '~> 0.6.0', require: false # Pronto runner for SCSS-Lint, tool to help keep your SCSS clean and readable
   # Maintenance
   gem 'request-log-analyzer', '~> 1.13', '>= 1.13.4', require: false # Create reports based on log files (Rails, Apache, MySQL, Delayed::Job, and other)
   gem 'traceroute', '~> 0.5.0' # A Rake task gem that helps you find the unused routes and controller actions
@@ -98,6 +99,7 @@ group :development do
   gem 'bullet', '~> 5.0' # Help to kill N+1 queries and unused eager loading
   gem 'rack-mini-profiler', '~> 0.9.9.2' # Profiling toolkit for Rack applications with Rails integration (Client Side, DB profiling, Server profiling)
   gem 'poper', '~> 0.1.3', require: false # Poper makes sure that your git commit messages are well-formed
+
 end
 
 group :test do
