@@ -79,6 +79,7 @@ group :development do
   gem 'reek', '~> 3.11', require: false # Code smell detector for Ruby
   gem 'rubycritic', '~> 2.8', require: false # Wraps around various static analysis gems to provide a quality report
   gem 'fasterer', '~> 0.3.2', require: false # Fasterer will suggest some speed improvements
+  gem 'pronto', '~> 0.6.0', require: false # Runs analysis quickly by checking only the relevant changes (created to be used on pull requests)
   # Maintenance
   gem 'request-log-analyzer', '~> 1.13', '>= 1.13.4', require: false # Create reports based on log files (Rails, Apache, MySQL, Delayed::Job, and other)
   gem 'traceroute', '~> 0.5.0' # A Rake task gem that helps you find the unused routes and controller actions

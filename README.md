@@ -34,3 +34,7 @@ Use it the same way you use other rake commands:
 ### newrelic_rpm
 
 Requires license key in production mode. In dev mode available in an app at /newrelic
+
+### pronto
+
+On mac please execute: `brew install cmake`
