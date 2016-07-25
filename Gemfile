@@ -74,6 +74,7 @@ group :development do
   gem 'quiet_assets', '~> 1.1' #  Turns off Rails asset pipeline log
   # Linters
   gem 'haml_lint', '~> 0.18.1' # Configurable tool for writing clean and consistent HAML
+  gem 'scss_lint', '~> 0.49.0', require: false # Configurable tool for writing clean and consistent SCSS
   # Code review
   gem 'rubocop', '~> 0.39.0', require: false # Static code analyzer checking code for adherence to the Ruby community style guide
   gem 'rails_best_practices', '~> 1.16', require: false # Code metric tool
