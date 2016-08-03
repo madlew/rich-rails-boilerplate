@@ -76,6 +76,7 @@ group :development do
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' # Displays footnotes for easy debugging, such as sessions, params, routes, queries, etc
   gem 'guard', '~> 2.13', require: false # Guard is a command line tool to easily handle events on file system modifications
   gem 'quiet_assets', '~> 1.1' #  Turns off Rails asset pipeline log
+  gem 'puma', '~> 3.6' # Simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications
   # Linters
   gem 'haml_lint', '~> 0.18.1', require: false # Configurable tool for writing clean and consistent HAML
   gem 'scss_lint', '~> 0.49.0', require: false # Configurable tool for writing clean and consistent SCSS
