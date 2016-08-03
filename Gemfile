@@ -37,6 +37,7 @@ gem 'meta-tags', '~> 2.1' # Search Engine Optimization (SEO) plugin for Ruby on 
 gem 'rails-settings-cached', '~> 0.6.5' # Makes managing a table of global key, value pairs easy (db table + app.yml support)
 gem 'rack-timeout', '~> 0.4.2' # Rack middleware which aborts requests that have been running for longer than a specified timeout
 gem 'active_link_to', '~> 1.0', '>= 1.0.3' # View helper to manage "active" state of a link
+gem 'draper', '~> 2.1' # Adds an object-oriented layer of presentation logic to your Rails apps
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
