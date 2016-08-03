@@ -38,3 +38,7 @@ Requires license key in production mode. In dev mode available in an app at /new
 ### pronto
 
 On mac please execute: `brew install cmake`
+
+### paper_trail
+
+Once enabled in Gemfile, it requires: rails generate paper_trail:install
