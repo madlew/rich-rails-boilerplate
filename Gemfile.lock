@@ -225,6 +225,8 @@ GEM
     httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
+    httplog (0.3.2)
+      colorize
     i18n (0.7.0)
     ice_nine (0.11.2)
     jbuilder (2.5.0)
@@ -612,6 +614,7 @@ DEPENDENCIES
   hashid-rails (~> 0.1)
   high_voltage (~> 2.4)
   httparty (~> 0.13.7)
+  httplog (~> 0.3.2)
   jbuilder (~> 2.0)
   jquery-rails
   jshint (~> 1.4)
