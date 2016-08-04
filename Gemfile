@@ -56,7 +56,7 @@ gem 'rails_admin', '~> 0.8.1' # Rails engine that provides an easy-to-use interf
 # gem 'capistrano-rails', group: :development # Use Capistrano for deployment
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.4.2' # Behaviour Driven Development for Ruby
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.1' # Behaviour Driven Development for Ruby
   gem 'factory_girl_rails', '~> 4.6'  # Fixtures replacement
   gem 'byebug', '~> 8.2', '>= 8.2.4' # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'awesome_print', '~> 1.6' # Prints Ruby objects in full color exposing their internal structure with proper indentation
@@ -114,7 +114,7 @@ group :development do
 end
 
 group :test do
-  gem 'fuubar', '~> 2.0' # RSpec progress bar formatter
+  gem 'fuubar', '~> 2.1', '>= 2.1.1' # RSpec progress bar formatter
   gem 'timecop', '~> 0.8.1' # A gem providing "time travel" and "time freezing" capabilities, making it simple to test time-dependent code
   gem 'simplecov', '~> 0.11.2', require: false # Code coverage with a powerful configuration library and automatic merging of coverage across test suites
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1' # Collection of testing matchers extracted from Shoulda http://matchers.shoulda.io
