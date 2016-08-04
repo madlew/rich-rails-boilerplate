@@ -40,6 +40,7 @@ gem 'active_link_to', '~> 1.0', '>= 1.0.3' # View helper to manage "active" stat
 gem 'draper', '~> 2.1' # Adds an object-oriented layer of presentation logic to your Rails apps
 gem 'cells-rails', '~> 0.0.6' # Cells allow you to encapsulate parts of your UI into components into view models
 gem 'autoprefixer-rails', '~> 6.4' # Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
+gem 'decent_exposure', '~> 3.0' # A helper for creating declarative interfaces in controllers
 
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
