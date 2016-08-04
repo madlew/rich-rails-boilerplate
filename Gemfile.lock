@@ -51,7 +51,7 @@ GEM
     audited-activerecord (4.2.0)
       activerecord (~> 4.0)
       audited (= 4.2.0)
-    autoprefixer-rails (6.3.7)
+    autoprefixer-rails (6.4.0)
       execjs
     awesome_print (1.7.0)
     axiom-types (0.1.1)
@@ -573,6 +573,7 @@ DEPENDENCIES
   acts_as_list (~> 0.7.2)
   annotate (~> 2.7)
   audited-activerecord (~> 4.2)
+  autoprefixer-rails (~> 6.4)
   awesome_print (~> 1.6)
   better_errors (~> 2.1.0)
   binding_of_caller
