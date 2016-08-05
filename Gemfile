@@ -42,6 +42,8 @@ gem 'cells-rails', '~> 0.0.6' # Cells allow you to encapsulate parts of your UI 
 gem 'autoprefixer-rails', '~> 6.4' # Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 gem 'decent_exposure', '~> 3.0' # A helper for creating declarative interfaces in controllers
 gem 'httplog', '~> 0.3.2' # Log outgoing HTTP requests made from your application
+gem 'lograge', '~> 0.4.1' # Tame Rails' multi-line logging into a single line per request
+
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
