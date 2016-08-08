@@ -127,6 +127,10 @@ group :production, :staging do
   gem 'exception_notification', '~> 4.1', '>= 4.1.4' # Exception notification for Rails apps
 end
 
+group :staging do
+  gem 'recipient_interceptor', '~> 0.1.2' # Never accidentally send emails to real people from your staging environment
+end
+
 group :doc do
   gem 'sdoc', '~> 0.4.0' # bundle exec rake doc:rails generates the API under doc/api.
 end
