@@ -12,6 +12,7 @@
   * rake db:create
   * rake db:migrate
   * rake db:seed_fu
+* Update .git/config according to: https://gist.github.com/tpope/643979
 
 ## Some gems configuration and usage
 
