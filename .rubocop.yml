@@ -1,3 +1,5 @@
+Documentation:
+  Enabled: false
 Rails:
   Enabled: true
 AllCops:
