@@ -47,17 +47,26 @@ Rails.application.configure do
   # Bullet config
   config.after_initialize do
     Bullet.enable = true
-    Bullet.alert = false # pop up a JavaScript alert in the browser
-    Bullet.bullet_logger = true # log to the Bullet log file (Rails.root/log/bullet.log)
-    Bullet.console = false # log warnings to your browser's console.log (Safari/Webkit browsers or Firefox w/Firebug installed)
-    Bullet.add_footer = true # adds the details in the bottom left corner of the page
-    # Bullet.stacktrace_includes = [ 'your_gem', 'your_middleware' ] # include paths with any of these substrings in the stack trace, even if they are not in your main app
-    # Bullet.stacktrace_excludes = [ 'their_gem', 'their_middleware' ] # ignore paths with any of these substrings in the stack trace, even if they are not in your main app
+    # pop up a JavaScript alert in the browser
+    Bullet.alert = false
+    # log to the Bullet log file (Rails.root/log/bullet.log)
+    Bullet.bullet_logger = true
+    # log warnings to browser's console.log (Safari/Webkit browsers or Firefox w/Firebug installed)
+    Bullet.console = false
+    # adds the details in the bottom left corner of the page
+    Bullet.add_footer = true
+    # include paths with any of these substrings in the stack trace, even if they're not in main app
+    # Bullet.stacktrace_includes = [ 'your_gem', 'your_middleware' ]
+    # ignore paths with any of these substrings in the stack trace, even if they are not in main app
+    # Bullet.stacktrace_excludes = [ 'their_gem', 'their_middleware' ]
     # Bullet.slack = { webhook_url: 'http://some.slack.url', foo: 'bar' }
 
     # Each of these settings defaults to true
-    # Bullet.n_plus_one_query_enable = false # Detect N+1 queries
-    # Bullet.unused_eager_loading_enable = false # Detect eager-loaded associations which are not used
-    # Bullet.counter_cache_enable = false # Detect unnecessary COUNT queries which could be avoided with a counter_cache
+    # Detect N+1 queries
+    # Bullet.n_plus_one_query_enable = false
+    # Detect eager-loaded associations which are not used
+    # Bullet.unused_eager_loading_enable = false
+    # Detect unnecessary COUNT queries which could be avoided with a counter_cache
+    # Bullet.counter_cache_enable = false
   end
 end
