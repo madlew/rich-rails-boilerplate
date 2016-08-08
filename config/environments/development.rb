@@ -43,7 +43,7 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.assets.quiet = true
-  
+
   # Bullet config
   config.after_initialize do
     Bullet.enable = true
@@ -51,13 +51,13 @@ Rails.application.configure do
     Bullet.bullet_logger = true # log to the Bullet log file (Rails.root/log/bullet.log)
     Bullet.console = false # log warnings to your browser's console.log (Safari/Webkit browsers or Firefox w/Firebug installed)
     Bullet.add_footer = true # adds the details in the bottom left corner of the page
-    #Bullet.stacktrace_includes = [ 'your_gem', 'your_middleware' ] # include paths with any of these substrings in the stack trace, even if they are not in your main app
-    #Bullet.stacktrace_excludes = [ 'their_gem', 'their_middleware' ] # ignore paths with any of these substrings in the stack trace, even if they are not in your main app
-    #Bullet.slack = { webhook_url: 'http://some.slack.url', foo: 'bar' }
+    # Bullet.stacktrace_includes = [ 'your_gem', 'your_middleware' ] # include paths with any of these substrings in the stack trace, even if they are not in your main app
+    # Bullet.stacktrace_excludes = [ 'their_gem', 'their_middleware' ] # ignore paths with any of these substrings in the stack trace, even if they are not in your main app
+    # Bullet.slack = { webhook_url: 'http://some.slack.url', foo: 'bar' }
 
     # Each of these settings defaults to true
-    #Bullet.n_plus_one_query_enable = false # Detect N+1 queries
-    #Bullet.unused_eager_loading_enable = false # Detect eager-loaded associations which are not used
-    #Bullet.counter_cache_enable = false # Detect unnecessary COUNT queries which could be avoided with a counter_cache
+    # Bullet.n_plus_one_query_enable = false # Detect N+1 queries
+    # Bullet.unused_eager_loading_enable = false # Detect eager-loaded associations which are not used
+    # Bullet.counter_cache_enable = false # Detect unnecessary COUNT queries which could be avoided with a counter_cache
   end
 end
