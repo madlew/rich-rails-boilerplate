@@ -47,6 +47,8 @@ gem 'httplog', '~> 0.3.2' # Log outgoing HTTP requests made from your applicatio
 gem 'lograge', '~> 0.4.1' # Tame Rails' multi-line logging into a single line per request
 gem 'omniauth', '~> 1.3', '>= 1.3.1' # Standardizes multi-provider authentication for web applications
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1' # The iconic font and CSS toolkit
+gem 'gon', '~> 6.1' # Your Rails variables in your JS
+
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
