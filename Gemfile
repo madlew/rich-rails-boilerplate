@@ -44,6 +44,7 @@ gem 'decent_exposure', '~> 3.0' # A helper for creating declarative interfaces i
 gem 'httplog', '~> 0.3.2' # Log outgoing HTTP requests made from your application
 gem 'lograge', '~> 0.4.1' # Tame Rails' multi-line logging into a single line per request
 
+
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
@@ -82,7 +83,6 @@ group :development do
   gem 'pry-byebug', '~> 3.3' # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' # Displays footnotes for easy debugging, such as sessions, params, routes, queries, etc
   gem 'guard', '~> 2.13', require: false # Guard is a command line tool to easily handle events on file system modifications
-  gem 'quiet_assets', '~> 1.1' #  Turns off Rails asset pipeline log
   gem 'puma', '~> 3.6' # Simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications
   # Linters
   gem 'haml_lint', '~> 0.18.1', require: false # Configurable tool for writing clean and consistent HAML
