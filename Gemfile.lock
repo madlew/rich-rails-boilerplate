@@ -611,6 +611,7 @@ DEPENDENCIES
   faker (~> 1.6.3)
   fasterer (~> 0.3.2)
   figaro (~> 1.1, >= 1.1.1)
+  font-awesome-rails (~> 4.6, >= 4.6.3.1)
   friendly_id (~> 5.1)
   fuubar (~> 2.1, >= 2.1.1)
   gretel (~> 3.0, >= 3.0.8)
