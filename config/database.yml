@@ -47,6 +47,13 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
+staging:
+  <<: *default
+  database: rails-boilerplate_staging
+  username: rails-boilerplate-staging
+  password: <%= ENV['RAILS-BOILERPLATE_STAGING_DATABASE_PASSWORD'] %>
+
 production:
   <<: *default
   database: rails-boilerplate_production
