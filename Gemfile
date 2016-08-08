@@ -14,6 +14,8 @@ gem 'devise', '~> 3.5', '>= 3.5.6' # Flexible authentication solution for Rails 
 gem 'devise-async', '~> 0.10.2' # Send Devise's emails in background
 gem 'seed-fu', '~> 2.3', '>= 2.3.5' # Seed-Fu is an attempt to once and for all solve the problem of inserting and maintaining seed data in a database.
 gem 'simple_form', '~> 3.2', '>= 3.2.1' # Customizable form generator with auto labels, placeholders, built in html5 validations and excellent Bootstrap integration
+gem 'client_side_validations', '~> 4.2', '>= 4.2.5' # Client side validation made easy for Rails
+gem 'client_side_validations-simple_form', '~> 3.2', '>= 3.2.4' # SimpleForm Plugin for ClientSideValidations
 gem 'carrierwave', '~> 0.11.0' # Image uploader (support for a range of ORMs and different backends)
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6' # Sass-powered version of Bootstrap 3
 gem 'high_voltage', '~> 2.4' # Easily include static pages in your Rails app
@@ -45,7 +47,6 @@ gem 'httplog', '~> 0.3.2' # Log outgoing HTTP requests made from your applicatio
 gem 'lograge', '~> 0.4.1' # Tame Rails' multi-line logging into a single line per request
 gem 'omniauth', '~> 1.3', '>= 1.3.1' # Standardizes multi-provider authentication for web applications
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1' # The iconic font and CSS toolkit
-
 # gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 
 # Admin
