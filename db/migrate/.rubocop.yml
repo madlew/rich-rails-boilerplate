@@ -1,0 +1,14 @@
+inherit_from:
+  - ../../.rubocop.yml
+
+MethodLength:
+  Max: 150
+
+LineLength:
+  Max: 150
+
+Metrics/AbcSize:
+  Max: 20
+
+#SingleSpaceBeforeFirstArg:
+#  Enabled: false
